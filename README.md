@@ -1,4 +1,5 @@
 # Actually Material Files, come in October for modifications & replacing Material theme by Yaru theme like on Ubuntu
+# actually all copyryght (c) goes to Hai Zhang
 
 [本文中文版](README_zh-CN.md)
 
