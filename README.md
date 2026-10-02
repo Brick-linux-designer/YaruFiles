@@ -1,7 +1,7 @@
 # Actually Material Files, come soon for modifications & replacing Material theme by Yaru theme like on Ubuntu
 # actually all copyryght (c) goes to Hai Zhang
 
-[![Android CI status](https://github.com/zhanghai/MaterialFiles/workflows/Android%20CI/badge.svg)](https://github.com/zhanghai/MaterialFiles/actions) [![GitHub release](https://img.shields.io/github/v/release/zhanghai/MaterialFiles)](https://github.com/zhanghai/MaterialFiles/releases) [![License](https://img.shields.io/github/license/zhanghai/MaterialFiles?color=blue)](LICENSE)
+[![Android CI status](https://github.com/Brick-linux-designer/YaruFiles/workflows/Android%20CI/badge.svg)](https://github.com/Brick-linux-designer/YaruFiles/actions) [![GitHub release](https://img.shields.io/github/v/release/zhanghai/MaterialFiles)](https://github.com/zhanghai/MaterialFiles/releases) [![License](https://img.shields.io/github/license/zhanghai/MaterialFiles?color=red)](LICENSE)
 
 An open source Yaru icon design file manager, for Android (actually just 5+).
 
