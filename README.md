@@ -1,15 +1,11 @@
-# Actually Material Files, come in October for modifications & replacing Material theme by Yaru theme like on Ubuntu
+# Actually Material Files, come soon for modifications & replacing Material theme by Yaru theme like on Ubuntu
 # actually all copyryght (c) goes to Hai Zhang
-
-[本文中文版](README_zh-CN.md)
 
 [![Android CI status](https://github.com/zhanghai/MaterialFiles/workflows/Android%20CI/badge.svg)](https://github.com/zhanghai/MaterialFiles/actions) [![GitHub release](https://img.shields.io/github/v/release/zhanghai/MaterialFiles)](https://github.com/zhanghai/MaterialFiles/releases) [![License](https://img.shields.io/github/license/zhanghai/MaterialFiles?color=blue)](LICENSE)
 
-An open source Material Design file manager, for Android 5.0+.
+An open source Yaru icon design file manager, for Android (actually just 5+).
 
-[<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="240">](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) [<img alt="Get it on F-Droid" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" width="240">](https://f-droid.org/packages/me.zhanghai.android.files) [<img alt="Get it on GitHub" src="https://raw.githubusercontent.com/Kunzisoft/Github-badge/main/get-it-on-github.png" width="240">](https://github.com/zhanghai/MaterialFiles/releases/latest/download/app-release-universal.apk)
-
-[Help translation on Transifex](https://www.transifex.com/zhanghai/MaterialFiles/) ([Search Android & GNOME translations](https://translations.zhanghai.me/), [Microsoft language resources](https://learn.microsoft.com/en-us/globalization/reference/microsoft-language-resources), [MIME type translations](https://gitlab.freedesktop.org/xdg/shared-mime-info/-/tree/master/po))
+[<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="240">](https://play.google.com/store/apps/details?id=com.edouard.appcrafter.yaru.ubuntu.nautlus.files) [<img alt="Get it on F-Droid" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" width="240">](https://f-droid.org/packages/edouard.appcrafter.yaru.ubuntu.nautilus.files) [<img alt="Get it on GitHub" src="https://raw.githubusercontent.com/Kunzisoft/Github-badge/main/get-it-on-github.png" width="240">](https://github.com/Brick-linux-designer/YaruFiles/releases)
 
 ## Preview
 
@@ -19,9 +15,9 @@ An open source Material Design file manager, for Android 5.0+.
 ## Features
 
 - Open source: Lightweight, clean and secure.
-- Material Design: Follows Material Design guidelines, with attention into details.
+- Yaru icon theme: Follows Yaru Icon theme like on Nautilus or Nemo (filexplores) on Ubuntu.
 - Breadcrumbs: Navigate in the filesystem with ease.
-- Root support: View and manage files with root access.
+- Root support: View and manage files with root access (actually availlable only if device is rooted).
 - Archive support: View, extract and create common compressed files.
 - NAS support: View and manage files on FTP, SFTP, SMB and WebDAV servers.
 - Themes: Customizable UI colors, plus night mode with optional true black.
@@ -29,17 +25,17 @@ An open source Material Design file manager, for Android 5.0+.
 - Robust: Uses Linux system calls under the hood, not yet another [`ls` parser](https://news.ycombinator.com/item?id=7994720).
 - Well-implemented: Built upon the right things, including [Java NIO2 File API](https://docs.oracle.com/javase/8/docs/api/java/nio/file/package-summary.html) and [LiveData](https://developer.android.com/topic/libraries/architecture/livedata).
 
-## Why Material Files?
+## Why Yaru Files?
 
-Because I like Material Design, and clean Material Design.
+Because I like Yaru Icons, and is styled like Nautilus on Ubuntu.
 
-There are already a handful of powerful file managers, but most of them just aren't Material Design. And even among the ones with Material Design, they usually have various minor design flaws (layout, alignment, padding, icon, font, etc) across the app which makes me uncomfortable, while still being minor enough so that not everybody would care to fix it. So I had to create my own.
+There are already a handful of powerful file managers, but most of them just aren't using Yaru Icon theme and they are not like the pure Desktop Nautilus. And even among the ones with Material Design, they usually have various minor design flaws (layout, alignment, padding, icon, font, etc) across the app which makes me uncomfortable, while still being minor enough so that not everybody would care to fix it. So I had to fork a not Yaru Icon Theme fileexplorer to conver it my own.
 
 Because I want an open source file manager.
 
 Most of the popular and reliable file managers are just closed source, and I sometimes use them to view and modify files that require root access. But deep down inside, I just feel uneasy with giving any closed source app the root access to my device. After all, that means giving literally full access to my device, which stays with me every day and stores my own information, and what apps do with such access merely depends on their good intent.
 
-Because I want a file manager that is implemented the right way.
+Because Hai Zhang want a file manager that is implemented the right way.
 
 - This app implemented [Java NIO2 File API](https://docs.oracle.com/javase/8/docs/api/java/nio/file/package-summary.html) as its backend, instead of inventing a custom model for file information/operations, which often gets coupled with UI logic and grows into a mixture of everything ([example](https://github.com/TeamAmaze/AmazeFileManager/blob/master/app/src/main/java/com/amaze/filemanager/filesystem/HybridFile.java)). On the contrary, a decoupled backend allows cleaner code (which means less bugs), and easier addition of support for other file systems.
 
@@ -51,7 +47,7 @@ In a word, this app tries to follow the best practices on Android and do the rig
 
 Because I know people can do it right.
 
-[Nautilus](https://wiki.gnome.org/Apps/Files) is a beautifully-designed and user-friendly file manager on Linux desktop, and it's fully Linux-aware. [Phonograph](https://github.com/kabouzeid/Phonograph) is an open source Material Design music player app (which I've been using for years), and it has just the right Material Design and implementation.
+[Nautilus](https://apps.gnome.org/Nautilus/) is a beautifully-designed and user-friendly file manager on Linux desktop, and it's fully Linux-aware. [Phonograph](https://github.com/kabouzeid/Phonograph) is an open source Material Design music player app (which I've been using for years), and it has just the right Material Design and implementation.
 
 So, it's time for yet another Android file manager.
 
@@ -66,8 +62,9 @@ Thank you if you choose to include Material Files in your custom ROM! However si
 - Please avoid conflict with the Play/F-Droid version of this app. App stores cannot update apps signed with a different certificate, so you can either ship an APK that's signed by me (or F-Droid) so that users will be able to update it on Play/F-Droid, or fork this project and rename the package name when you need to sign the APK with a different certificate and potentially making other changes.
 
 ## License
-
+    Copyright (C) 2026 Ubuntu Community
     Copyright (C) 2018 Hai Zhang
+    Copyright (C) 2026 Bbick-linux-digner (Édouard)
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -78,6 +75,8 @@ Thank you if you choose to include Material Files in your custom ROM! However si
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    You should have received a copy of the GNU General Public License
+
+    The Yaru Icons are under Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA 4.0)
+    See <https://creativecommons.org/licenses/by-sa/4.0/>
