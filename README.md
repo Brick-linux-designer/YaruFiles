@@ -1,11 +1,9 @@
-# Actually Material Files, come soon for modifications & replacing Material theme by Yaru theme like on Ubuntu
-# actually all copyryght (c) goes to Hai Zhang
+# Yaru Files
+## with Yaru icon theme like on Ubuntu.
 
 [![Android CI status](https://github.com/Brick-linux-designer/YaruFiles/workflows/Android%20CI/badge.svg)](https://github.com/Brick-linux-designer/YaruFiles/actions) [![GitHub release](https://img.shields.io/github/v/release/zhanghai/MaterialFiles)](https://github.com/zhanghai/MaterialFiles/releases) [![License](https://img.shields.io/github/license/zhanghai/MaterialFiles?color=red)](GPL_v3)
 
-An open source Yaru icon design file manager, for Android (actually just 5+).
-
-[<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="240">](https://play.google.com/store/apps/details?id=com.edouard.appcrafter.yaru.ubuntu.nautlus.files) [<img alt="Get it on F-Droid" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" width="240">](https://f-droid.org/packages/edouard.appcrafter.yaru.ubuntu.nautilus.files) [<img alt="Get it on GitHub" src="https://raw.githubusercontent.com/Kunzisoft/Github-badge/main/get-it-on-github.png" width="240">](https://github.com/Brick-linux-designer/YaruFiles/releases)
+An open source Yaru icon design file manager, for Android.
 
 ## Preview
 
@@ -15,7 +13,7 @@ An open source Yaru icon design file manager, for Android (actually just 5+).
 ## Features
 
 - Open source: Lightweight, clean and secure.
-- Yaru icon theme: Follows Yaru Icon theme like on Nautilus or Nemo (filexplores) on Ubuntu.
+- Yaru icon theme: Follows Yaru Icon theme like on Nautilus or Nemo (file exploreres) on Ubuntu 18.10+.
 - Breadcrumbs: Navigate in the filesystem with ease.
 - Root support: View and manage files with root access (actually availlable only if device is rooted).
 - Archive support: View, extract and create common compressed files.
@@ -29,13 +27,13 @@ An open source Yaru icon design file manager, for Android (actually just 5+).
 
 Because I like Yaru Icons, and is styled like Nautilus on Ubuntu.
 
-There are already a handful of powerful file managers, but most of them just aren't using Yaru Icon theme and they are not like the pure Desktop Nautilus. And even among the ones with Material Design, they usually have various minor design flaws (layout, alignment, padding, icon, font, etc) across the app which makes me uncomfortable, while still being minor enough so that not everybody would care to fix it. So I had to fork a not Yaru Icon Theme fileexplorer to conver it my own.
+There are already a handful of powerful file managers, but they aren't using Yaru Icon theme and they are not like the pure Desktop Nautilus on Ubuntu. So I had to fork a not Yaru Icon Theme fileexplorer to conver it my own.
 
-Because I want an open source file manager.
+Because I want to fork opensource Android file manager.
 
 Most of the popular and reliable file managers are just closed source, and I sometimes use them to view and modify files that require root access. But deep down inside, I just feel uneasy with giving any closed source app the root access to my device. After all, that means giving literally full access to my device, which stays with me every day and stores my own information, and what apps do with such access merely depends on their good intent.
 
-Because Hai Zhang want a file manager that is implemented the right way.
+Because [Hai Zhang](https://github.com/zhanghai) ( creator of original [Material Files](https://github.com/zhanghai/MaterialFiles) ) whant a file manager that is implemented the right way.
 
 - This app implemented [Java NIO2 File API](https://docs.oracle.com/javase/8/docs/api/java/nio/file/package-summary.html) as its backend, instead of inventing a custom model for file information/operations, which often gets coupled with UI logic and grows into a mixture of everything ([example](https://github.com/TeamAmaze/AmazeFileManager/blob/master/app/src/main/java/com/amaze/filemanager/filesystem/HybridFile.java)). On the contrary, a decoupled backend allows cleaner code (which means less bugs), and easier addition of support for other file systems.
 
@@ -53,18 +51,15 @@ So, it's time for yet another Android file manager.
 
 ## Inclusion in custom ROMs
 
-Thank you if you choose to include Material Files in your custom ROM! However since I've received several user complaints due to improper inclusion, I'd like to offer some suggestions on including this app properly for the good of end users:
+Thank you if you choose to include Yaru Files in your custom ROM! However since I've received several user complaints due to improper inclusion, I'd like to offer some suggestions on including this app properly for the good of end users:
 
 - Please don't replace the AOSP [DocumentsUI](https://android.googlesource.com/platform/packages/apps/DocumentsUI/) app with this app. This app is not designed to replace DocumentsUI and can't handle a number of functionalities in DocumentsUI - in fact, it relies on DocumentsUI to do things like granting external SD card access.
 
-- Please make sure this app can be uninstalled or at least disabled. Some users may not want this app for a variety of reasons, and get very upset when they can't remove it.
-
-- Please avoid conflict with the Play/F-Droid version of this app. App stores cannot update apps signed with a different certificate, so you can either ship an APK that's signed by me (or F-Droid) so that users will be able to update it on Play/F-Droid, or fork this project and rename the package name when you need to sign the APK with a different certificate and potentially making other changes.
+- Please make sure this app can be uninstalled or at least disabled. Some users may not want this app like most other apps for a variety of reasons, and get very upset when they can't remove it.
 
 ## License
-    Copyright (C) 2026 Ubuntu Community
     Copyright (C) 2018 Hai Zhang
-    Copyright (C) 2026 Bbick-linux-digner (Édouard)
+    Copyright (C) 2026 Brick-linux-disigner
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -78,5 +73,8 @@ Thank you if you choose to include Material Files in your custom ROM! However si
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
     You should have received a copy of the GNU General Public License
 
+    Unchanged icons from [Yaru theme](https://github.com/ubuntu/yaru) , Copyright (C) Ubuntu Community, [Attribution CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+    This project is not affiliated or approuved by Canonical Ltd. or the Ubuntu Comunity.
+    Ubuntu is a registrated mark of Canonical Ltd.
     The Yaru Icons are under Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA 4.0)
-    See <https://creativecommons.org/licenses/by-sa/4.0/>
+    See <https://creativecommons.org/licenses/by-sa/4.0/>.
