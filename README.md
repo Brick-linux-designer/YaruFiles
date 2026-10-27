@@ -1,4 +1,4 @@
-# Yaru Files
+# Yaru Files (becoming soon)
 ## with Yaru icon theme like on Ubuntu.
 
 [![Android CI status](https://github.com/Brick-linux-designer/YaruFiles/workflows/Android%20CI/badge.svg)](https://github.com/Brick-linux-designer/YaruFiles/actions) [![GitHub release](https://img.shields.io/github/v/release/zhanghai/MaterialFiles)](https://github.com/zhanghai/MaterialFiles/releases) [![License](https://img.shields.io/github/license/zhanghai/MaterialFiles?color=red)](GPL_v3)
